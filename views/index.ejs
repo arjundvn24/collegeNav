@@ -1,0 +1,37 @@
+<html>
+
+<head>
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<!-- <body>
+        
+        <h1>Hi</h1>
+    </body> -->
+
+<body>
+  <div class="wrapper">
+    <h1>PORTAL</h1>
+    <div class="text-area">
+      <%cols.forEach((col)=>{%>
+      <table id="ctl00_cphCollegeNavBody_ucResultsMain_tblResults" class="resultsTable" width="100%" cellpadding="4"
+        cellspacing="0" border="0">
+        <tbody>
+          <tr class="resultsY">
+            <td class="infobutton" scope="row">
+            </td>
+            <td><a href="/info/<%=col.Name %>"><strong><%=col.Name%></strong></a><br><%=col.Address%></td>
+            <td class="addbutton"></td>
+          </tr>
+      </table>
+        <h4>
+          <% sel_name=col.Name%>
+            <a href="/info/<%=col.Name %>">
+              <!-- <%= col.Name%> -->
+                <% })%>
+            </a>
+        </h4>
+    </div>
+  </div>
+</body>
+
+</html>
