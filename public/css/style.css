@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Gunsan;
+  src: url(Gunsan.ttf);
+}
+body {
+  font-family: "Gunsan";
+  font-size: 1.1rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, bisque);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(206, 116, 6), bisque); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+
+}
+.wrapper{
+    height: fit-content;
+    width: fit-content;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0.5rem;
+  }
+.text-area{
+    display: block;
+    margin: 2em auto;
+    padding: 0.5em 0.25em 0.25em 0.25em;
+    border: none;
+    border-radius: 0.3em;
+     font-family:'Courier New', Courier, monospace; 
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 0 0 1em 0.25em rgba(0,0,0,0.2);
+    background-color: white;
+}
+h1{
+  font-size: 3em !important;
+}
