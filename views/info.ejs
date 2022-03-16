@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <!-- <body>
+        
+        <h1>Hi</h1>
+    </body> -->
+  <body>
+    <div class="wrapper">
+      <h1>PORTAL</h1>
+      
+      <div class="text-area">
+
+     <div>
+      <div class="divInst">
+      <span style="position:relative">
+        <span class="headerlg"><%=data.Name%></span>
+        <br><%=data.Address%></span>
+        <table class="layouttab"><tbody>
+          <tr><td scope="row" class="srb">General information:&nbsp;&nbsp;</td>
+            <!-- <td><%=data.Address%></td></tr> -->
+            <tr>
+              <td scope="row" class="srb">Website:&nbsp;&nbsp;</td>
+              <td><a href="https://<%=data.Website%>/" target="_blank"><%=data.Website%></a>
+              </td></tr><tr><td scope="row" class="srb">Type:&nbsp;&nbsp;</td>
+                <td><%=data.Type%></td></tr><tr><td scope="row" class="srb">Awards offered:&nbsp;&nbsp;</td>
+                  <td><%=data.Awards_offered%></td></tr
+                    ><tr><td scope="row" class="srb">Campus setting:&nbsp;&nbsp;</td><td><%=data.Campus_setting%></td></tr>
+                    <tr><td scope="row" class="srb">Campus housing:&nbsp;&nbsp;</td><td><%=data.Campus_housing%></td></tr>
+                    <tr><td scope="row" class="srb">Student population:&nbsp;&nbsp;</td><td><%=data.Student_population%> ( <%=data.Undergraduate_students%> undergraduate)</td></tr>
+                    <tr><td scope="row" class="srb">Net Price:&nbsp;&nbsp;</td><td><%=data.Net_Price%></td></tr>
+                    <tr><td scope="row" class="srb">Transfer Out Rate:&nbsp;&nbsp;</td><td><%=data.Transfer_Out_Rate%></td></tr>
+                    <tr><td scope="row" class="srb">Graduation Rate:&nbsp;&nbsp;</td><td><%=data.Graduation_Rate%></td></tr>
+                  </tbody></table><div style="clear:both"></div>
+  </div>
+      </div>
+    </div>
+  </body>
+</html>
